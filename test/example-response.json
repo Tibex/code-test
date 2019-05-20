@@ -1,0 +1,370 @@
+{
+  "Rules": [
+    {
+      "Name": "ddb-to-s3-exporter-dev-CronEventsRuleSchedule1-PJQ7W7WRK5F0",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/ddb-to-s3-exporter-dev-CronEventsRuleSchedule1-PJQ7W7WRK5F0",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 4 ? * * *)"
+    },
+    {
+      "Name": "ddb-to-s3-exporter-prod-CronEventsRuleSchedule1-1NOA12SUOCCKH",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/ddb-to-s3-exporter-prod-CronEventsRuleSchedule1-1NOA12SUOCCKH",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 4 ? * * *)"
+    },
+    {
+      "Name": "dynamodb-backup-dev-CronEventsRuleSchedule1-1RGGFWD25T6MB",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/dynamodb-backup-dev-CronEventsRuleSchedule1-1RGGFWD25T6MB",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 2 * * ? *)"
+    },
+    {
+      "Name": "dynamodb-backup-prod-CronEventsRuleSchedule1-W6ZXAL6FFGJF",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/dynamodb-backup-prod-CronEventsRuleSchedule1-W6ZXAL6FFGJF",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 2 * * ? *)"
+    },
+    {
+      "Name": "dynamodb-cw-statistics-dev-CronEventsRuleSchedule1-13O7K48EJVSBQ",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/dynamodb-cw-statistics-dev-CronEventsRuleSchedule1-13O7K48EJVSBQ",
+      "State": "ENABLED",
+      "ScheduleExpression": "rate(15 minutes)"
+    },
+    {
+      "Name": "dynamodb-cw-statistics-pro-CronEventsRuleSchedule1-1DUAK292CLQVQ",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/dynamodb-cw-statistics-pro-CronEventsRuleSchedule1-1DUAK292CLQVQ",
+      "State": "ENABLED",
+      "ScheduleExpression": "rate(15 minutes)"
+    },
+    {
+      "Name": "es-snapshot-dev-CronEventsRuleSchedule1-TZ9IE0XFUZOU",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/es-snapshot-dev-CronEventsRuleSchedule1-TZ9IE0XFUZOU",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 1 * * ? *)"
+    },
+    {
+      "Name": "lab-cron-jobs-dev-CacheTariffsEventsRuleSchedule1-186ASPKUSB1O2",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-cron-jobs-dev-CacheTariffsEventsRuleSchedule1-186ASPKUSB1O2",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 9 * * ? *)"
+    },
+    {
+      "Name": "lab-cron-jobs-dev-CheckMissingPostcodesEventsRuleS-1CQR93ZXUEDM0",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-cron-jobs-dev-CheckMissingPostcodesEventsRuleS-1CQR93ZXUEDM0",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 7 * * ? *)"
+    },
+    {
+      "Name": "lab-cron-jobs-dev-CollectCOSsEventsRuleSchedule1-GH3MO9TWCM4X",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-cron-jobs-dev-CollectCOSsEventsRuleSchedule1-GH3MO9TWCM4X",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 6 ? * MON *)"
+    },
+    {
+      "Name": "lab-cron-jobs-dev-CollectMPANsEventsRuleSchedule1-1P6MCMLYLU9XH",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-cron-jobs-dev-CollectMPANsEventsRuleSchedule1-1P6MCMLYLU9XH",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 6 * * ? *)"
+    },
+    {
+      "Name": "lab-cron-jobs-dev-CollectRecheckEventsRuleSchedule-GQT7OKSWAC9S",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-cron-jobs-dev-CollectRecheckEventsRuleSchedule-GQT7OKSWAC9S",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 8 * * ? *)"
+    },
+    {
+      "Name": "lab-cron-jobs-dev-CollectSwitchConfirmationEventsR-1G6E9CJT7FOIB",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-cron-jobs-dev-CollectSwitchConfirmationEventsR-1G6E9CJT7FOIB",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 8 * * ? *)"
+    },
+    {
+      "Name": "lab-cron-jobs-dev-DumpAllCosEventsRuleSchedule1-1W8G6OR7VR4C4",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-cron-jobs-dev-DumpAllCosEventsRuleSchedule1-1W8G6OR7VR4C4",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 7 ? * MON *)"
+    },
+    {
+      "Name": "lab-cron-jobs-dev-DumpAllMPANsEventsRuleSchedule1-194DNPFI0XOHW",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-cron-jobs-dev-DumpAllMPANsEventsRuleSchedule1-194DNPFI0XOHW",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 7 1 * ? *)"
+    },
+    {
+      "Name": "lab-cron-jobs-dev-ExpireSwitchAlertsEventsRuleSche-16AH1RZXKH33K",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-cron-jobs-dev-ExpireSwitchAlertsEventsRuleSche-16AH1RZXKH33K",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 6 * * ? *)"
+    },
+    {
+      "Name": "lab-cron-jobs-dev-KpiEventsRuleSchedule1-BDB4EWJ2XKR1",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-cron-jobs-dev-KpiEventsRuleSchedule1-BDB4EWJ2XKR1",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 7 * * ? *)"
+    },
+    {
+      "Name": "lab-cron-jobs-dev-ProcessCDRReportEventsRuleSchedu-19SV2KLD1A1PZ",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-cron-jobs-dev-ProcessCDRReportEventsRuleSchedu-19SV2KLD1A1PZ",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 11 * * ? *)"
+    },
+    {
+      "Name": "lab-cron-jobs-dev-ProcessCOSReportEventsRuleSchedu-LWG4FN0LVJO8",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-cron-jobs-dev-ProcessCOSReportEventsRuleSchedu-LWG4FN0LVJO8",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 15 * * ? *)"
+    },
+    {
+      "Name": "lab-cron-jobs-dev-ProcessEHLReportEventsRuleSchedu-L9O959KG98UC",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-cron-jobs-dev-ProcessEHLReportEventsRuleSchedu-L9O959KG98UC",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 13 * * ? *)"
+    },
+    {
+      "Name": "lab-cron-jobs-dev-UpdateSuppliersEventsRuleSchedul-739C0T67UGQ3",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-cron-jobs-dev-UpdateSuppliersEventsRuleSchedul-739C0T67UGQ3",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 9 * * ? *)"
+    },
+    {
+      "Name": "lab-cron-jobs-prod-CacheTariffsEventsRuleSchedule1-XYY4Y8SSKI9M",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-cron-jobs-prod-CacheTariffsEventsRuleSchedule1-XYY4Y8SSKI9M",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 9 * * ? *)"
+    },
+    {
+      "Name": "lab-cron-jobs-prod-CheckMissingPostcodesEventsRule-QEIKMQTVR06Y",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-cron-jobs-prod-CheckMissingPostcodesEventsRule-QEIKMQTVR06Y",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 7 * * ? *)"
+    },
+    {
+      "Name": "lab-cron-jobs-prod-CollectCOSsEventsRuleSchedule1-1QSDUZ051C6S5",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-cron-jobs-prod-CollectCOSsEventsRuleSchedule1-1QSDUZ051C6S5",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 6 ? * MON *)"
+    },
+    {
+      "Name": "lab-cron-jobs-prod-CollectMPANsEventsRuleSchedule1-1AYXFEDP30NNQ",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-cron-jobs-prod-CollectMPANsEventsRuleSchedule1-1AYXFEDP30NNQ",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 6 * * ? *)"
+    },
+    {
+      "Name": "lab-cron-jobs-prod-CollectRecheckEventsRuleSchedul-1BGK6DI25R6KB",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-cron-jobs-prod-CollectRecheckEventsRuleSchedul-1BGK6DI25R6KB",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 8 * * ? *)"
+    },
+    {
+      "Name": "lab-cron-jobs-prod-CollectSwitchConfirmationEvents-1B98VN4Z352UK",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-cron-jobs-prod-CollectSwitchConfirmationEvents-1B98VN4Z352UK",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 8 * * ? *)"
+    },
+    {
+      "Name": "lab-cron-jobs-prod-DumpAllCosEventsRuleSchedule1-C017JDA03XQQ",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-cron-jobs-prod-DumpAllCosEventsRuleSchedule1-C017JDA03XQQ",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 7 ? * MON *)"
+    },
+    {
+      "Name": "lab-cron-jobs-prod-DumpAllMPANsEventsRuleSchedule1-QJUAXOSJFFRA",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-cron-jobs-prod-DumpAllMPANsEventsRuleSchedule1-QJUAXOSJFFRA",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 7 1 * ? *)"
+    },
+    {
+      "Name": "lab-cron-jobs-prod-ExpireSwitchAlertsEventsRuleSch-10SVXGH8XVMJ7",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-cron-jobs-prod-ExpireSwitchAlertsEventsRuleSch-10SVXGH8XVMJ7",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 6 * * ? *)"
+    },
+    {
+      "Name": "lab-cron-jobs-prod-KpiEventsRuleSchedule1-Z4KPASGLOA96",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-cron-jobs-prod-KpiEventsRuleSchedule1-Z4KPASGLOA96",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 7 * * ? *)"
+    },
+    {
+      "Name": "lab-cron-jobs-prod-ProcessCDRReportEventsRuleSched-1Q8ZYC39ZJ5GQ",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-cron-jobs-prod-ProcessCDRReportEventsRuleSched-1Q8ZYC39ZJ5GQ",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 11 * * ? *)"
+    },
+    {
+      "Name": "lab-cron-jobs-prod-ProcessCOSReportEventsRuleSched-11S586UA94JFT",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-cron-jobs-prod-ProcessCOSReportEventsRuleSched-11S586UA94JFT",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 15 * * ? *)"
+    },
+    {
+      "Name": "lab-cron-jobs-prod-ProcessEHLReportEventsRuleSched-MQSB7HUTZT72",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-cron-jobs-prod-ProcessEHLReportEventsRuleSched-MQSB7HUTZT72",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 13 * * ? *)"
+    },
+    {
+      "Name": "lab-cron-jobs-prod-UpdateSuppliersEventsRuleSchedu-4HHONFYJMC6C",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-cron-jobs-prod-UpdateSuppliersEventsRuleSchedu-4HHONFYJMC6C",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 9 * * ? *)"
+    },
+    {
+      "Name": "lab-es-snapshot-dev-CronEventsRuleSchedule1-H2ZZSGT7XVP",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-es-snapshot-dev-CronEventsRuleSchedule1-H2ZZSGT7XVP",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 1 * * ? *)"
+    },
+    {
+      "Name": "lab-es-snapshot-prod-CronEventsRuleSchedule1-15CDT1GYFRUPS",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-es-snapshot-prod-CronEventsRuleSchedule1-15CDT1GYFRUPS",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 1 * * ? *)"
+    },
+    {
+      "Name": "lab-pull-google-reports-d-PartnersDashvisitorsEven-19U3SGIPQX1XU",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-pull-google-reports-d-PartnersDashvisitorsEven-19U3SGIPQX1XU",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 6 * * ? *)"
+    },
+    {
+      "Name": "lab-pull-google-reports-d-PullDashgoogleDashreport-1TBWUWOLXE5SE",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-pull-google-reports-d-PullDashgoogleDashreport-1TBWUWOLXE5SE",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 6 * * ? *)"
+    },
+    {
+      "Name": "lab-pull-google-reports-dev-KpiEventsRuleSchedule1-M2C4LM843489",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-pull-google-reports-dev-KpiEventsRuleSchedule1-M2C4LM843489",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 7 * * ? *)"
+    },
+    {
+      "Name": "lab-pull-google-reports-p-PartnersDashvisitorsEven-X8ZWVCETR232",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-pull-google-reports-p-PartnersDashvisitorsEven-X8ZWVCETR232",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 6 * * ? *)"
+    },
+    {
+      "Name": "lab-pull-google-reports-p-PullDashgoogleDashreport-KXPNGJA2J4I1",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-pull-google-reports-p-PullDashgoogleDashreport-KXPNGJA2J4I1",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 6 * * ? *)"
+    },
+    {
+      "Name": "lab-pull-google-reports-pro-KpiEventsRuleSchedule1-8SKG2D9LB8KZ",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-pull-google-reports-pro-KpiEventsRuleSchedule1-8SKG2D9LB8KZ",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 7 * * ? *)"
+    },
+    {
+      "Name": "lab-stream-crm-dev-AddDashissueDashtoDashusersDash-VKF6V0LVZCY8",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-stream-crm-dev-AddDashissueDashtoDashusersDash-VKF6V0LVZCY8",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 6 * * ? *)"
+    },
+    {
+      "Name": "lab-stream-crm-prod-AddDashissueDashtoDashusersDas-18VS0U4HC2W6O",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-stream-crm-prod-AddDashissueDashtoDashusersDas-18VS0U4HC2W6O",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 6 * * ? *)"
+    },
+    {
+      "Name": "lab-stream-user-dev-CheckSwitchAlertEventsRuleSche-S3OPLV0XVHW3",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-stream-user-dev-CheckSwitchAlertEventsRuleSche-S3OPLV0XVHW3",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 5 * * ? *)"
+    },
+    {
+      "Name": "lab-stream-user-dev-HandleUncompletedUsersEventsRu-15FKIRWSSB55I",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-stream-user-dev-HandleUncompletedUsersEventsRu-15FKIRWSSB55I",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 7 * * ? *)"
+    },
+    {
+      "Name": "lab-stream-user-dev-HandleUnusedUsersEventsRuleSch-4IZ9X6JPZHS8",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-stream-user-dev-HandleUnusedUsersEventsRuleSch-4IZ9X6JPZHS8",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 6 * * ? *)"
+    },
+    {
+      "Name": "lab-stream-user-prod-CheckSwitchAlertEventsRuleSch-1GD7XXNYWFOPD",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-stream-user-prod-CheckSwitchAlertEventsRuleSch-1GD7XXNYWFOPD",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 5 * * ? *)"
+    },
+    {
+      "Name": "lab-stream-user-prod-HandleUncompletedUsersEventsR-1S3W6LVJWOQ2",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-stream-user-prod-HandleUncompletedUsersEventsR-1S3W6LVJWOQ2",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 7 * * ? *)"
+    },
+    {
+      "Name": "lab-stream-user-prod-HandleUnusedUsersEventsRuleSc-1OV52UK7I50G2",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/lab-stream-user-prod-HandleUnusedUsersEventsRuleSc-1OV52UK7I50G2",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 6 * * ? *)"
+    },
+    {
+      "Name": "process-stream-dev-HandleDisconnectedCadsEventsRul-5LWQQL9EKEM9",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/process-stream-dev-HandleDisconnectedCadsEventsRul-5LWQQL9EKEM9",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 7 * * ? *)"
+    },
+    {
+      "Name": "process-stream-prod-HandleDisconnectedCadsEventsRu-19IX64M6G0VIM",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/process-stream-prod-HandleDisconnectedCadsEventsRu-19IX64M6G0VIM",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 7 * * ? *)"
+    },
+    {
+      "Name": "sandbox-endpoint-test-dev-CronEventsRuleSchedule1-CX3AXC0C6YPH",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/sandbox-endpoint-test-dev-CronEventsRuleSchedule1-CX3AXC0C6YPH",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0 1 * * ? *)"
+    },
+    {
+      "Name": "serverlessrepo-CodePipeli-CPLambdaCodePipelineEven-1EABDEDC9LW2A",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/serverlessrepo-CodePipeli-CPLambdaCodePipelineEven-1EABDEDC9LW2A",
+      "EventPattern": "{\"detail-type\":[\"CodePipeline Pipeline Execution State Change\"],\"source\":[\"aws.codepipeline\"]}",
+      "State": "ENABLED"
+    },
+    {
+      "Name": "serverlessrepo-pipeline-d-PipelineDashboardEventHa-EVLOCUA79OPH",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/serverlessrepo-pipeline-d-PipelineDashboardEventHa-EVLOCUA79OPH",
+      "EventPattern": "{\"detail-type\":[\"CodePipeline Pipeline Execution State Change\",\"CodePipeline Stage Execution State Change\",\"CodePipeline Action Execution State Change\"],\"source\":[\"aws.codepipeline\"]}",
+      "State": "ENABLED"
+    },
+    {
+      "Name": "serverlessrepo-pipeline-d-PipelineDashboardGenerat-1BFQ9QRR67692",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/serverlessrepo-pipeline-d-PipelineDashboardGenerat-1BFQ9QRR67692",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(*/5 * * * ? *)"
+    },
+    {
+      "Name": "service-pinger-dev-CronEventsRuleSchedule1-1PC7KN6GJMCO6",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/service-pinger-dev-CronEventsRuleSchedule1-1PC7KN6GJMCO6",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(*/5 9-18 ? * MON-FRI *)"
+    },
+    {
+      "Name": "service-pinger-prod-CronEventsRuleSchedule1-1BY4UR52DPXPS",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/service-pinger-prod-CronEventsRuleSchedule1-1BY4UR52DPXPS",
+      "State": "ENABLED",
+      "ScheduleExpression": "rate(5 minutes)"
+    },
+    {
+      "Name": "stop-start-resources-dev-CronEventsRuleSchedule1-1KKIAXME01842",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/stop-start-resources-dev-CronEventsRuleSchedule1-1KKIAXME01842",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0,30 7,19 ? * MON-FRI *)"
+    },
+    {
+      "Name": "stop-start-resources-prod-CronEventsRuleSchedule1-G3NOBYWD1N23",
+      "Arn": "arn:aws:events:eu-west-1:AWS-ACCOUNT:rule/stop-start-resources-prod-CronEventsRuleSchedule1-G3NOBYWD1N23",
+      "State": "ENABLED",
+      "ScheduleExpression": "cron(0,30 7,19 ? * MON-FRI *)"
+    }
+  ]
+}

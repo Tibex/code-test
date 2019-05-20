@@ -13,6 +13,8 @@ You can mimic the Node.JS SDK on command line by running:
 
 `aws events list-rules --region eu-west-1| jq .`
 
+The response will be something like: [this](./test/example-response.json)
+
 # Step 2
 
 Filter out all the triggers that are not in production environment
